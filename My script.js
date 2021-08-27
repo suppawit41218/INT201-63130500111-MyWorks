@@ -1,18 +1,63 @@
-let birthYear = 2001 ;
-zodiac = birthYear%12;
-console.log(zodiac)
-switch(zodiac){
-    case 0 : console.log('monkey') ; break;
-    case 1 : console.log('rooster') ; break;
-    case 2 : console.log('dog') ; break;
-    case 3 : console.log('pig') ; break;
-    case 4 : console.log('rat') ; break;
-    case 5 : console.log('ox') ; break;
-    case 6 : console.log('tiger') ; break;
-    case 7 : console.log('rabbit') ; break;
-    case 8 : console.log('dragon') ; break;
-    case 9 : console.log('snake') ; break;
-    case 10 : console.log('horse') ; break;
-    case 11 : console.log('sheep') ; break;
+function RandomN(){
+
+    let nums = []
+
+    for(i=0;i<3;i++){
+
+        nums[i] = Math.floor(Math.random() * 2);
+
+    }
+
+    console.log(nums);
+
+    return nums;
+
 }
 
+
+
+let nums = RandomN()
+
+        let sum = 0;
+
+        let min = 101;
+
+        let max = 0;
+
+
+
+        for (let i = 0; i < nums.length; i++) {
+
+            sum += nums[i]
+
+        }
+
+        console.log(sum);
+
+        
+
+        for (let i = 0; i < nums.length; i++) {
+
+            if(nums[i] < min){
+
+                min = nums[i]
+
+            }
+
+        }
+
+        console.log(min);
+
+        
+
+        for(i=0;i<nums.length;i++){
+
+            if(max < nums[i]){
+
+                max = nums[i]
+
+            }
+
+        }
+
+        console.log(max);
