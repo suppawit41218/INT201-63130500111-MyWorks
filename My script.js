@@ -1,0 +1,10 @@
+let quote = 'You shall not past';
+console.log(quote);
+console.log(typeof(quote)+' for you is '+quote);
+let boolean = true;
+console.log(boolean);
+let boo;
+boo = false;
+console.log(boo);
+console.log(typeof(boo)+' and also '+typeof(boolean));
+console.log(8/4+8/2);
