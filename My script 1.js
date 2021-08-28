@@ -42,22 +42,12 @@ let nums = RandomN()
 
                 min = nums[i]
 
-            }
-
-        }
-
+            } }
         console.log(min);
-
-        
 
         for(i=0;i<nums.length;i++){
 
             if(max < nums[i]){
-
-                max = nums[i]
-
-            }
-
-        }
-
+               max = nums[i]
+            } }
         console.log(max);
