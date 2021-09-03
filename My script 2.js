@@ -1,33 +1,12 @@
-function menu(choice){​​​​​​​​
+/*let jojo=["jonathan","joseph","jotaro","josuke"]
+for(let product of jojo){
+    console.log(product.charAt(0)+product.charAt(1))
+}*/
+/*console.log(" \n The Crusaders \n");
+let jotaro={name: " Kujo Jotaro ", stand: " Star Platinum ",ability : " Power and Acuracy "}
+for(let val in jotaro){
+console.log(val+" : "+jotaro[val]);
+}*/
 
-switch(choice){​​​​​​​​
-case 1 : let sum = 0;
- for(i =0;i<nums.length;i++){​​​​​​​​
-sum += nums[i]
-}​​​​​​​​
-console.log(sum);break;
-
-
-case 2 : let min = 101;
-for(i=0;i<nums.length;i++){​​​​​​​​
-if(nums[i] < min){​​​​​​​​
-min = nums[i]
-}​​​​​​​​
-console.log(min);break;}
-
-case 3 : let max = 0;
-for(i=0;i<nums.length;i++){​​​​​​​​
-if(max < nums[i]){​​​​​​​​
-max = nums[i]
-}​​​​​​​​
-console.log(max);
-}​​​​​​​​
-
-} }
-
-
-menu(1);
-
-menu(2);
-
-menu(3);
+let rectangle ={width:5, height: 10, area:function area(){return this.width*this.height}}
+console.log(rectangle)
