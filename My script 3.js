@@ -1,4 +1,4 @@
-let Weapons = { pistols : ["Barette","Desert Eagle"]}
+let Weapons = { pistols : ["Barette","Desert Eagle","Revolver","Colt .45"]}
 Weapons.Rifles = ["M16 Assualt Rifle","M4 Assualt Rifle","Kar98 Sniper rifle","AK47"];
 Weapons.Heavy = ["Grenade Lancher","Rocket Lancher","RPG"];
 Weapons.melee = ["Machete","Short knife","Hatchet"]
@@ -17,3 +17,5 @@ console.log("\n accessories");
 for(let show in arsenal.accessories){
     console.log(show+" : "+arsenal.accessories[show]);
     }
+
+
