@@ -1,6 +1,5 @@
 
 let card = {symbol : ["Spade","Heart","Diamond","Club"]}
-card.num = null;
 
 function randomCard(){
     let rdsym = Math.floor(Math.random()*card.symbol.length);
