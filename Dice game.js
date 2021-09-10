@@ -1,8 +1,8 @@
-let rounds = 3 ;
-let player1 = { name : " Jotaro "};
-let player2 = { name : " Dio "}; 
+let rounds = 3 ; //จำนวนครั้งในเกม
+let player1 = { name : " Jotaro "}; //ข้อมูลผู้เล่นคนที่1
+let player2 = { name : " Dio "}; // ข้อมูลผู้เล่นคนที่2
 
-    function gameOn(){
+    function gameOn(){ //fuction สำหรับดำเนินเกม 1 เกม
 
      console.log("\n Game On \n");
 
