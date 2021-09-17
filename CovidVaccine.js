@@ -10,10 +10,10 @@ class covidVaccines {
 }
 let Jonathan = new covidVaccines("Jonathan","Joestar");
 let joseph   = new covidVaccines("Joseph","Joestar");
-let jotaro  = new covidVaccines("Jotaro","KuJo");
+let jotaro   = new covidVaccines("Jotaro","KuJo");
 let josuke   = new covidVaccines("Josuke","Higashigata");
 let Giorno   = new covidVaccines("Giorno","Giovana");
-let jolyne  = new covidVaccines("Jolyne","Kujo");
+let jolyne   = new covidVaccines("Jolyne","Kujo");
 
 for(i=0;i<3;i++){
     let dose;
