@@ -1,5 +1,9 @@
-
-let card = {symbol : ["Spade","Heart","Diamond","Club"]}
+class Blackjack{
+ constructor(playername,scores){
+     
+ }
+}
+/*let card = {symbol : ["Spade","Heart","Diamond","Club"]}
 
 function randomCard(){
     let rdsym = Math.floor(Math.random()*card.symbol.length);
@@ -24,4 +28,4 @@ function randomNumber(){
 } 
 card.symbol = randomSymbol();
 card.num = randomNumber();
-console.log(card)
+console.log(card)*/
